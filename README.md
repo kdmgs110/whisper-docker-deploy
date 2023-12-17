@@ -5,6 +5,7 @@
 https://github.com/openai/whisper
 
 ## セットアップ 
+
 - Docker Desktopをインストールしてください
 - 以下のコマンドを実行してください
 
@@ -19,4 +20,5 @@ https://zenn.dev/kento1109/articles/d7d8f512802935
 
 ## 利用方法
 
-`whisper sample.mp3 --language ja`
+- mp3ファイルをルートディレクトリに入れてください
+- `whisper sample.mp3 --language ja` で文字起こしを開始します。
